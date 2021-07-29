@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SAMADI CHILDREN HOME</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/7d11e47a78.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="headerStyle">
+        <div class="layout">
+            <h1>Samadhi Children Home </h1>
+        </div>
+    </header>
+    <div class="NavigationBar">
+        <a href="#">Overview</a>
+        <button class="DropDownMenu"><i class="fas fa-tachometer-alt"></i>Donations<i
+                class="fas fa-caret-down"></i></button>
+        <div class="DropDown_Container">
+            <a href="#">Add Donations</a>
+            <a href="#">View Donations</a>
+        </div>
+        <button class="DropDownMenu"><i class="fal fa-clipboard-user"></i>Staff<i
+                class="fas fa-caret-down"></i></button>
+        <div class="DropDown_Container">
+            <a href="#">Add staffs</a>
+            <a href="#">View Donations</a>
+        </div>
+        <button class="DropDownMenu"><i class="fas fa-child"></i>Child<i class="fas fa-caret-down"></i></button>
+        <div class="DropDown_Container">
+            <a href="#">Add child</a>
+            <a href="#">View child</a>
+        </div>
+        <button class="DropDownMenu"><i class="fas fa-digging"></i>Labors<i class="fas fa-caret-down"></i></button>
+        <div class="DropDown_Container">
+            <a href="#">Add Labor</a>
+            <a href="#">View Labor</a>
+            <a href="#">View Labor salary</a>
+        </div>
+        <a href="#">Logout</a>
+    </div>
+
+    <script>
+        var dropdown = document.getElementsByClassName("DropDownMenu");
+        var i;
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>

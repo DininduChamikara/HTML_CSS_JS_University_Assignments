@@ -1,0 +1,61 @@
+body{
+  background-color: #f6f6f6;
+}
+
+.new_user{
+    text-align: center;
+    font-family: "arial";
+}
+
+
+.form{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    border: 1px solid black;
+    display: block;
+    
+}
+
+.form label{
+    margin-top: 10px;
+    
+}
+
+
+.text_feild{
+    padding-bottom: 15px;
+}
+
+.other2{
+    margin-bottom: 100px;
+}
+
+.other{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.text{
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    
+}
+
+.button{
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.button:hover{
+    background: red;
+    color: black;
+}

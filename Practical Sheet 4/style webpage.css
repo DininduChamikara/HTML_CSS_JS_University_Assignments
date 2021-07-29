@@ -1,0 +1,17 @@
+header{
+    background-color: orange;
+    margin: inherit;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    margin: inherit;
+    width: auto;
+}
+a{
+    color: white;
+    font-size: 20; 
+}
+body{
+    margin: inherit;
+}

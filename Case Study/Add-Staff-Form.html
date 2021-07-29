@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add-Staff form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+    <div class="large-container">
+        <h1>Add-Staff from</h1>
+        <form>
+            <label for="first_name">First Name:</label>
+            <input class="text_input" type="text" name="first_name"><br>
+
+            <label for="last_name">Last Name:</label>
+            <input class="text_input" type="text" name="last_name"><br>
+
+            <label for="name_with_init">Name with Initials:</label>
+            <input class="text_input" type="text" name="name_with_init"><br>
+
+            <div id="birth">
+                <label class="birth_lable" for="birthdate">Birthdate:</label>
+                <input class="birthday_pannel" type="date" name="birthdate"><br>
+            </div>
+            
+
+            <label for="nic">NIC:</label>
+            <input class="text_input" type="text" name="NIC"><br>
+            
+            
+            <div class="gender">
+                <label id="gender_label" for="gender">Gender</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+
+            </div>
+
+            <label for="contact_num">Contact Number:</label>
+            <input class="text_input" type="text" name="contact_num"><br>
+
+            <label for="permanent_address">Permanent Address:</label>
+            <textarea class="text_input" type="text" name="permanent_address"></textarea><br>
+
+            <label for="email">Email Address:</label>
+            <input class="text_input" type="text" name="email"><br>
+
+            <label for="post">Post:</label>
+            <select class="select" name="post">
+                <option>Admin</option>
+                <option>Principal</option>
+                <option>Matron</option>
+            </select><br>
+            
+
+            <label for="child_img">Enter An Image:</label>
+            <input type="file" name="child_img"><br>
+
+            <button class="button" type="submit">Insert</button>
+        
+        </form>
+        
+    </div>
+
+</body>
+</html>

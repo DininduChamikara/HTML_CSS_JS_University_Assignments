@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 1</title>
+    </head>
+    <body>
+        <Center>
+            <h2>Arrays in JavaScript</h2>
+            <!-- <p id="arrId"></p> -->
+            Array Elements : <label id="arrId"></label>
+            <br>
+            First Array Element: <label id="arrId1"></label>
+            <br>
+            Last Array Element: <label id="arrId2"></label>
+
+        </Center>
+
+        <script>
+            let arr = [1, 5, 4, 9, 7];
+
+            let element1 = arr[0];
+            let element2 = arr[4];
+
+            document.getElementById('arrId').innerHTML = arr;
+            document.getElementById('arrId1').innerHTML = element1;
+            document.getElementById('arrId2').innerHTML = element2;
+
+            console.log(arr);
+        </script>
+    </body>
+</html>

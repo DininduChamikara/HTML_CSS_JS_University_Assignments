@@ -1,0 +1,1 @@
+console.log('Type js in external File');

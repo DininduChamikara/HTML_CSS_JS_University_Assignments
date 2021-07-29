@@ -1,0 +1,69 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_input{
+
+    padding: 8px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    background-color:white;
+    margin-left: 10px;
+}
+
+.large-container{
+    width: 400px;
+    background-color: #f6f6f6;
+}
+
+.birth_lable{
+    padding-right: 40px;
+}
+
+.birthday_pannel{
+    text-align: right;
+    
+}
+
+#birth{
+    margin-bottom: 10px;
+}
+
+.gender{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#gender_label{
+    padding-right: 50px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+.button{
+    background-color:blue;
+    color: #ffffff;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button:hover{
+    background: red;
+    color: black;
+}
+
+.select{
+    background-color: powderblue;
+    width: 100px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <center>
+            <h2>JavaScript While Loop</h2>
+
+            <label id="whileLoop"></label>
+        </center>
+
+        <script>
+            let cars = ["BMW", "Volvo", "Saab", "Ford"];
+            let i = 0;
+            let text = "";
+
+            while(cars[i]){ // stop when undefined
+                text = text + cars[i] + "<br>";
+                i++;
+                console.log(cars[i]);
+
+            }
+            document.getElementById('whileLoop').innerHTML = text;
+        </script>
+    </body>
+</html>

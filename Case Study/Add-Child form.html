@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add-Child form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+    <div class="large-container">
+        <h1>Add-Child from</h1>
+        <form>
+            <label for="name_with_init">Name with Initials:</label>
+            <input class="text_input" type="text" name="name_with_init"><br>
+
+            <label for="full_name">Full Name:</label>
+            <input class="text_input" type="text" name="full_name"><br>
+
+            <label class="birth_lable" for="birthdate">Birthdate:</label>
+            <input class="birthday_pannel" type="date" name="birthdate"><br>
+
+            <div class="gender">
+                <label id="gender_label" for="gender">Gender</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+
+            </div>
+            
+
+            <label for="child_img">Enter An Image:</label>
+            <input type="file" name="child_img"><br>
+
+            <button class="button" type="submit">Insert</button>
+        
+        </form>
+        
+    </div>
+
+</body>
+</html>
